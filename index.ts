@@ -1,54 +1,56 @@
-// let arr:number[]=[1,2,6,9,8,4,10,11];
+//Implement a program that uses a for loop to iterate through an array of numbers and print only the even numbers.
+let arr:number[]=[1,2,6,9,8,4,10,11];
 
-// for(let i=0; i<=arr.length; i++){
+for(let i=0; i<=arr.length; i++){
 
-//     if(arr[i]%2 == 0){
+    if(arr[i]%2 == 0){
         
-//         console.log(arr);
-//     }
-// }
-//-------------------------------------------------------
-// let arr:number[]=[1,2,6,9,8,4,10,11];
+        console.log(arr);
+    }
+}
+// Implement a program that uses a loop to iterate through an array of numbers and remove all the even numbers from them and just leave the odd ones
 
-// for(let i=arr.length; i>=0; i--){
+let arr:number[]=[1,2,6,9,8,4,10,11];
 
-//     if(arr[i]%2 == 0){
+for(let i=arr.length; i>=0; i--){
 
-//         arr.splice(i,1);
-//     }
-// }
+    if(arr[i]%2 == 0){
 
-// console.log(arr);
+        arr.splice(i,1);
+    }
+}
 
-//--------------------------------------------------------
+console.log(arr);
+
+//Write a program that defines a function to calculate the area of a circle. The function should take the radius as input and return the calculated area.
 
 
-// let Area:number =0;
+let Area:number =0;
 
-// function CircleRadius(r:any) {
+function CircleRadius(r:any) {
 
-// Area=3.1415*r*r;
+Area=3.1415*r*r;
 
-// return Area;
-// }
-// let result= CircleRadius(12);
-// console.log(result);
+return Area;
+}
+let result= CircleRadius(12);
+console.log(result);
 
-//-------------------------------------------------------
+// Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array
 
-// let arr:number[]=[100,49,99,62,25,40,72,11];
+let arr:number[]=[100,49,99,62,25,40,72,11];
 
-// for(let i=arr.length; i>=0; i--){
+for(let i=arr.length; i>=0; i--){
 
-//     if(arr[i]< 50){
+    if(arr[i]< 50){
 
-//         arr.splice(i,1);
-//     }
-// }
+        arr.splice(i,1);
+    }
+}
 
-// console.log(arr);
+console.log(arr);
 
-//----------------------------------------------------
+// Write a program that uses a function to find the largest element in an array of numbers
 
 let arr:number[]=[100,49,99,62,25,402,72,11];
 
